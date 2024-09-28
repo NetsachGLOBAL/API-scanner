@@ -1,0 +1,19 @@
+  "system('ls');",  # Execute 'ls' command
+        "echo shell_exec('ls');",  # Another variation of 'ls' command
+        "echo passthru('cat /etc/passwd');",  # Access sensitive file
+        "print `id`;",  # Execute `id` command
+        "eval('phpinfo();');",  # Output PHP info
+
+
+        #py tags
+        "os.system('ls')",       # OS command execution
+        "eval('1+1')",           # Eval function
+        "subprocess.Popen('ls')",# Subprocess execution
+        "exec('print(1)')",      # Exec function
+        "__import__('os').system('ls')",
+        "compile('1+1', '', 'eval')", # Compile function
+        "globals()['__builtins__'].exec('print(1)')",
+        "open('/etc/passwd', 'r')"
+
+
+        
